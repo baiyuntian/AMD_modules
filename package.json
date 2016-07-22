@@ -1,0 +1,22 @@
+{
+  "name": "TopuNet-AMD-modules",
+  "version": "1.0.4",
+  "description": "Topu.net AMD规范模块集",
+  "main": "Readme.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TopuNet/AMD_modules.git"
+  },
+  "keywords": [
+    "topu.net"
+  ],
+  "author": "Topu.net",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TopuNet/AMD_modules/issues"
+  },
+  "homepage": "https://github.com/TopuNet/AMD_modules#readme"
+}
