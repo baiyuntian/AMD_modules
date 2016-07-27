@@ -2,6 +2,8 @@
 	高京
 	2016-07-11
 	监听窗口大小改变模块
+    callback: 回调方法
+    依赖jquery@1.x 或 zepto
 */
 
 define(["lib/jquery.min"], function() {
