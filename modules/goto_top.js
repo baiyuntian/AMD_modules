@@ -11,7 +11,7 @@
     依赖jquery@1.x 或 zepto
 */
 
-define(["lib/jquery.min"], function() {
+define(function() {
 
     return function(opt) {
 
