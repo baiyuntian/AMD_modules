@@ -29,7 +29,6 @@ define(["lib/jquery.min"], function() {
 
         var button_obj = $(opt.button_selector); // 按钮对象
         var panel_obj = $(opt.panel_selector); // panel对象
-        var panel_height_px = panel_obj.height(); //获取panel高度
         var scrollTop_obj = opt.panel_selector == window ? $("body,html") : panel_obj; // 滚动对象
 
         // 盒滚动scrollTop方法，解决zepto的animate不支持scrollTop的问题
@@ -96,5 +95,5 @@ define(["lib/jquery.min"], function() {
         panel_obj.scroll(function() {
             test_position();
         });
-    }
+    };
 });
