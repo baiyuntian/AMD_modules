@@ -27,3 +27,21 @@
 		// callback: 回调方法
 		// 依赖jquery@1.x 或 zepto
 		return function(callback) {};
+		
+###background_change：
+		var _opt = {
+			obj_arr : [],		//判定变换背景的盒子名称的数组，
+			src_arr : []		//背景路径数组
+		};
+		依赖jquery@1.x 或 zepto 
+		
+		return background_change;
+		注意：盒子的数量不能多于图片的数量
+
+###judgeBrowserEdition：
+		//判断浏览器的版本
+		//根据所船参数判断浏览器版本，参数值为0，IE7浏览器返回true，参数值为1，IE7,8,浏览器返回true，参数为其他值时，IE7,8,9,浏览器返回true
+		//返回值 judgeBrowserEdition;
+		//调用方法  judgeBrowserEdition({num:0});
+		
+		
