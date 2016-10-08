@@ -9,6 +9,10 @@
 
 [window_resize](#window_resize)：监听窗口的resize事件
 
+[background_change](#background_change):切换body大背景
+
+[judgeBrowserEdition](#judgeBrowserEdition):判断ie低版本浏览器版本
+
 <a name="goto_top"></a> 
 ###goto_top：
 		/* 
